@@ -56,7 +56,7 @@
     <string name="error">Қате</string>
     <string name="loading">Жүктелуде&#8230;</string>
     <string name="please_wait">Күте тұрыңыз</string>
-    <string name="search_hint">Іздеу…</string>
+    <string name="search_hint">Іздеу</string>
     <string name="backpack_add">Рюкзакқа салу</string>
     <string name="share_website_text">share.catrob.at</string>
     <!-- Security warning dialog -->
@@ -376,7 +376,7 @@
     <string name="nfc_tag_name_label">NFC тегінің атауы</string>
     <string name="string_label">Мәтін</string>
     <string name="data_label">Аты</string>
-    <string name="keyword_label">Іздеу…</string>
+    <string name="keyword_label">Іздеу</string>
     <string name="html_label">HTML мәтінін енгізу</string>
     <string name="Image_format_not_supported">Сурет форматына қолдау көрсетілмейді</string>
     <string name="import_conflicting_variables">Актёр немесе объект қосылуға мүмкін емес.</string>
@@ -952,7 +952,7 @@
     <string name="seconds_string">секундтар</string>
     <!--  -->
     <!-- Embroidery bricks -->
-    <string name="brick_stitch">Stitch</string>
+    <string name="brick_stitch">Тігіс</string>
     <string name="brick_running_stitch">Start running stitch with length</string>
     <string name="brick_zigzag_stitch">Start zigzag stitch with length</string>
     <string name="brick_zigzag_stitch_width">and width</string>
@@ -960,8 +960,8 @@
     <string name="brick_stop_stitch">Stop current stitch</string>
     <string name="brick_write_embroidery">Write embroidery data to file</string>
     <string name="brick_default_embroidery_file">embroidery.dst</string>
-    <string name="brick_sew_up">Sew up</string>
-    <string name="brick_thread_color">Set thread color to</string>
+    <string name="brick_sew_up">Тігу</string>
+    <string name="brick_thread_color">Қалам түсін орнату</string>
     <!--  -->
     <!-- Device bricks -->
     <string name="brick_reset_timer">Reset timer</string>
@@ -1008,7 +1008,7 @@
     <string name="brick_clone">Create clone of</string>
     <string name="brick_clone_this">өзің</string>
     <string name="brick_when_cloned">When you start as a clone</string>
-    <string name="brick_delete_this_clone">Delete this clone</string>
+    <string name="brick_delete_this_clone">Бұл клонды жою</string>
     <string name="brick_assert_that">Assert</string>
     <string name="brick_is_equal_to">equals expected</string>
     <string name="brick_wait_till_idle">Wait until all other scripts have stopped</string>
@@ -1018,10 +1018,10 @@
     <string name="brick_touch_slide">"Touch and slide"</string>
     <string name="brick_touch_from_x">"from x:"</string>
     <string name="brick_finish_stage">Finish stage</string>
-    <string name="brick_finish_tests">Finish tests</string>
+    <string name="brick_finish_tests">Тестті аяқтау</string>
     <string name="brick_assert_lists">Assert lists</string>
-    <string name="brick_assert_actual">Actual:</string>
-    <string name="brick_assert_expected">Expected:</string>
+    <string name="brick_assert_actual">Нақтысы:</string>
+    <string name="brick_assert_expected">Күтілген:</string>
     <string name="brick_parameterized_assert">assert</string>
     <string name="brick_parameterized_equals">equals to expected item of</string>
     <plurals name="brick_parameterized_foreach_plural">
@@ -1055,7 +1055,7 @@
     <string name="brick_write_variable_to_file_success">"Data successfully written to %1$s"</string>
     <string name="brick_read_variable_from_file_top">Read variable</string>
     <string name="brick_read_variable_from_file_center">from file</string>
-    <string name="brick_read_variable_from_file_bottom">and</string>
+    <string name="brick_read_variable_from_file_bottom">және</string>
     <string name="brick_read_variable_from_file_keep">keep the file</string>
     <string name="brick_read_variable_from_file_delete">delete the file</string>
     <string name="brick_write_list_on_device">Write list on device</string>
@@ -1067,9 +1067,9 @@
     <string name="brick_add_item_to_userlist_add">Add</string>
     <string name="brick_add_item_to_userlist">to list</string>
     <string name="brick_clear_userlist">Delete all items from list</string>
-    <string name="brick_delete_item_from_userlist_delete">Delete item from list</string>
+    <string name="brick_delete_item_from_userlist_delete">Тізімнен жою керек пе?</string>
     <string name="brick_delete_item_from_userlist">at position</string>
-    <string name="brick_insert_item_into_userlist_insert_into">Insert</string>
+    <string name="brick_insert_item_into_userlist_insert_into">Енгізу</string>
     <string name="brick_insert_item_into_userlist_into_list">into list</string>
     <string name="brick_insert_item_into_userlist_at_position">at position</string>
     <string name="brick_replace_item_in_userlist_replace_in_list">Replace item in list</string>
@@ -1077,15 +1077,15 @@
     <string name="brick_replace_item_in_userlist_with_value">бірге</string>
     <string name="brick_web_request">Send web request to</string>
     <string name="brick_web_request_default_value">https://catrob.at/joke</string>
-    <string name="brick_web_request_result">and store answer in</string>
-    <string name="web_request_warning_title">Allow web access?</string>
+    <string name="brick_web_request_result">және жазбаша жауапты сақтаңыз</string>
+    <string name="web_request_warning_title">Кіруге рұқсат ету?</string>
     <string name="web_request_warning_message">Be very careful before allowing access, since the
         link may expose your personal information, such as your precise geographical location or any text
         you have entered to malicious others or to the public. See our
         &lt;a href=%1s&gt;wiki&lt;/a&gt; for more information why this can
         be extremely dangerous.
     </string>
-    <string name="web_request_trust_domain_warning_title">Always allow web access?</string>
+    <string name="web_request_trust_domain_warning_title">Әрқашан рұқсат беру керек пе?</string>
     <string name="web_request_trust_domain_warning_message">By always allowing access, you will
         not be asked again to confirm web addresses from this domain.
     </string>
@@ -1100,20 +1100,20 @@
     <string name="look_request_type_error_message">"Get image from %1$s could not retrieve a recognized image format"</string>
     <string name="brick_store_csv_into_userlist_store">Store column</string>
     <string name="brick_store_csv_into_userlist_of">of the</string>
-    <string name="brick_store_csv_into_userlist_csv">comma-separated values</string>
+    <string name="brick_store_csv_into_userlist_csv">yтірмен бөлінген мәндер</string>
     <string name="brick_store_csv_into_userlist_into">into list</string>
     <string name="brick_store_csv_into_userlist_data">kitty,cute\npuppy,naughty\noctopus,intelligent</string>
     <!--  -->
     <!--Instruments-->
-    <string name="piano">piano</string>
-    <string name="electric_piano">electric piano</string>
+    <string name="piano">фортепиано</string>
+    <string name="electric_piano">электрлі фортепиано</string>
     <string name="cello">cello</string>
-    <string name="flute">flute</string>
-    <string name="vibraphone">vibraphone</string>
+    <string name="flute">флейта</string>
+    <string name="vibraphone">виброфон</string>
     <string name="organ">organ</string>
-    <string name="guitar">guitar</string>
+    <string name="guitar">гитара</string>
     <string name="electric_guitar">electric guitar</string>
-    <string name="bass">bass</string>
+    <string name="bass">бас</string>
     <string name="pizzicato">pizzicato</string>
     <string name="synth_pad">synth pad</string>
     <string name="choir">choir</string>
@@ -1149,39 +1149,39 @@
     <!--  -->
     <!-- Default Values -->
     <string name="default_project_name">My project</string>
-    <string name="default_variable_name">Variable</string>
+    <string name="default_variable_name">Айнымалы</string>
     <string name="default_scene_name">Scene</string>
-    <string name="default_script_group_name">Script group</string>
-    <string name="default_broadcast_message_name">Message</string>
-    <string name="default_list_name">List</string>
-    <string name="default_project_background_name">Background</string>
-    <string name="default_project_cloud_name">Clouds</string>
-    <string name="default_project_cloud_sprite_name_1">Clouds1</string>
-    <string name="default_project_cloud_sprite_name_2">Clouds2</string>
-    <string name="default_project_sprites_animal_name">Animal</string>
+    <string name="default_script_group_name">Сценарийлер тобы</string>
+    <string name="default_broadcast_message_name">Хабар</string>
+    <string name="default_list_name">Тізім</string>
+    <string name="default_project_background_name">Фон</string>
+    <string name="default_project_cloud_name">Бұлты</string>
+    <string name="default_project_cloud_sprite_name_1">Бұлты1</string>
+    <string name="default_project_cloud_sprite_name_2">Бұлты2</string>
+    <string name="default_project_sprites_animal_name">Жануар</string>
     <string name="default_project_sprites_animal_wings_up">Wings up</string>
     <string name="default_project_sprites_animal_wings_down">Wings down</string>
     <string name="default_project_sprites_tweet_1">Tweet1</string>
     <string name="default_project_sprites_tweet_2">Tweet2</string>
     <!--suppress UnusedResources -->
-    <string name="default_project_needle_name">Needle</string>
+    <string name="default_project_needle_name">Ине</string>
     <!--suppress UnusedResources -->
     <string name="default_project_outer_loop">Outer Loop</string>
     <!--suppress UnusedResources -->
     <string name="default_project_inner_loop">Inner Loop</string>
     <!-- Default ChromeCast Values -->
-    <string name="default_cast_project_background_name">Background</string>
-    <string name="default_cast_project_cloud_name">Clouds</string>
-    <string name="default_cast_project_cloud_sprite_name1">Clouds1</string>
-    <string name="default_cast_project_cloud_sprite_name2">Clouds2</string>
-    <string name="default_cast_project_sprites_bird_name">Bird</string>
+    <string name="default_cast_project_background_name">Фон</string>
+    <string name="default_cast_project_cloud_name">Бұлты</string>
+    <string name="default_cast_project_cloud_sprite_name1">Бұлты1</string>
+    <string name="default_cast_project_cloud_sprite_name2">Бұлты2</string>
+    <string name="default_cast_project_sprites_bird_name">Құстар</string>
     <string name="default_cast_project_sprites_bird_name_wing_up">Bird Wings up</string>
     <string name="default_cast_project_sprites_bird_name_wing_down">Bird Wings down</string>
     <string name="default_cast_project_sprites_bird_name_wing_up_left">Bird Wings up left</string>
     <string name="default_cast_project_sprites_bird_name_wing_down_left">Bird Wings down left</string>
     <string name="default_cast_project_sprites_tweet_1">Tweet1</string>
     <string name="default_cast_project_sprites_tweet_2">Tweet2</string>
-    <string name="default_cast_project_var_direction">direction</string>
+    <string name="default_cast_project_var_direction">бағыт</string>
     <string name="default_cast_project_name">My first Chromecast project</string>
     <!-- Default Drone Values -->
     <string name="drone_brick_set_text">Текст</string>
@@ -1249,7 +1249,7 @@ needs read and write access to it. You can always change permissions through you
     <string name="error_screenshot_failed">Something went wrong while saving the preview image.</string>
     <string name="error_internet_connection">An unknown error occurred. Check your Internet connection.</string>
     <string name="error_project_compatibility">The project is not compatible with this version of the app.</string>
-    <string name="error_outdated_version">This app version is outdated. Update now?</string>
+    <string name="error_outdated_version">Бұл қолданбаның нұсқасы ескірген. Қазір жаңартыңыз ба?</string>
     <string name="error_upload_project_with_default_name">You cannot upload a project with the name \"%s\".
         Please rename the project.</string>
     <string name="error_upload_default_project">You cannot upload an unmodified example project. Please
@@ -2008,7 +2008,7 @@ needs read and write access to it. You can always change permissions through you
         without a look.</string>
     <!-- Information -->
     <string name="no_variable_selected">No variable selected</string>
-    <string name="search">Іздеу…</string>
+    <string name="search">Іздеу</string>
     <string name="no_results_found">No results found</string>
     <string name="query_field_is_empty">Query field is empty</string>
     <string name="cut">Қиыу</string>
